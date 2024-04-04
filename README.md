@@ -1,8 +1,10 @@
 # Customer Application REST APIs
-* **Update a Customer:** Users can update an existing customer's details.
-* **Retrieve Customers:** Users can retrieve specific customer by ID.
-* **Retrieve All Customers:** Users can retrieve all customers.
-* **Delete a Customer:** Users can delete a customer by ID.
+* **Create a Customer:** User can create a customer with valid details.
+* **Update a Customer:** User can update an existing customer's details by customerId.
+* **Retrieve Customers:** User can retrieve specific customer by customerId.
+* **Retrieve Customers Pages:** User can retrieve customers based on pageSize, pageNumber, ascending and descending order.
+* **Delete a Customer:** User can delete a customer by customerId.
+* **Sync Customers data from SUNBASE API:** User can Sync Customers data from SUNBASE database.
 ## Technologies Used
 * **Java 8+**
 * **Spring Boot**

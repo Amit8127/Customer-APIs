@@ -37,7 +37,7 @@ public class CustomerController {
         try {
             // Call the service to create a new customer
             Customer result = customerService.createACustomer(createACustomerDto);
-            return new ResponseEntity<>(result, HttpStatus.OK);
+            return new ResponseEntity<>(result, HttpStatus.CREATED);
         } catch (Exception e) {
             return new ResponseEntity<>(e.getMessage(), HttpStatus.BAD_REQUEST);
         }
